@@ -21,9 +21,13 @@ Web app project clone: https://anvil.works/build#clone:S73FSPBJC4VWOQZR=MMHMJSKF
 
 
 
-## Deployment
+## Python Development
 
-Add additional notes about how to deploy this on a live system
+
+```sh
+pip install imdbpy
+pip install -U scikit-learn
+```
 
 
 
