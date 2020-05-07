@@ -23,6 +23,7 @@ Web app project clone: https://anvil.works/build#clone:S73FSPBJC4VWOQZR=MMHMJSKF
 
 
 ```sh
+pip install pandas
 pip install imdbpy
 pip install -U scikit-learn
 ```
