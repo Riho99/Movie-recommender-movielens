@@ -19,9 +19,7 @@ Web app project clone: https://anvil.works/build#clone:S73FSPBJC4VWOQZR=MMHMJSKF
 
 
 
-
-
-## Python Development
+## Python deployment
 
 
 ```sh
@@ -31,11 +29,8 @@ pip install -U scikit-learn
 
 
 
- 
+## Contributer
 
-## Meta
-
-Erkhbold Tsogbat - https://github.com/Riho99)
 
 My teacher - https://github.com/robertritz 
 
