@@ -6,7 +6,7 @@ Web app link: https://movie3.anvil.app/
 
 ## Getting Started
 
-Everytime I visit movie streaming sites, I wonder how do they recommend me movies.So I decided to select this kind of thing as my final project . My plan is recommend 10 movies based on 3 entries.
+Everytime I visit movie streaming sites, I wonder how do they recommend me movies.So I decided to select this subject as my final project . My plan is recommend 10 movies based on 3 entries.
 
 
 
