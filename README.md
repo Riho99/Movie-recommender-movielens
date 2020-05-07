@@ -11,8 +11,10 @@ Everytime I visit movie streaming sites, I wonder how do they recommend me movie
 
 
 ### Installing
-no install need 
+no install need
+
 Python code: /notebook.ipynb
+
 Web app project clone: https://anvil.works/build#clone:S73FSPBJC4VWOQZR=MMHMJSKF43TKBEKGWV4BSPFR
 
 
@@ -58,16 +60,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Erkhbold Tsogbat** - *Initial work* - [PurpleBooth](https://github.com/Riho99)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+My teacher [contributors](https://github.com/robertritz) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
