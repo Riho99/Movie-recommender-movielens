@@ -1,0 +1,132 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Muktu+Malar';
+
+/*body {
+	margin: 0;
+}*/
+
+a, a:visited {
+  color: #a94442
+}
+
+a:hover, a:focus, a:active {
+  color: #d9534f;
+}
+
+.nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Muktu Malar", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.nav.dark {
+  background-color: #71798c;
+  color: white;
+}
+
+.nav.dark a, .nav.dark a:visited {
+  color: white;
+}
+
+.nav.dark a:hover, .nav.dark a:active, .nav.dark a:focus {
+  color: #eee;
+}
+
+
+.nav .title {
+  display: inline-block;
+}
+
+.designer .nav-right {
+  float: right;
+}
+
+.designer .nav-elt {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  position: relative;
+}
+
+@media(min-width:768px) {
+  .nav-right {
+    float: right;
+  }
+
+  .nav-elt {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 15px;
+      position: relative;
+  }
+}
+
+.nav .placeholder {
+  padding: 7px 10px;
+  margin: 3px 0;
+  color: #888;
+  border: 2px dashed;
+}
+
+.nav.dark .placeholder {
+  color: #ccc;
+}
+
+.nav .placeholder {
+	visibility: hidden;
+}
+
+body.anvil-highlight .nav .placeholder {
+	visibility: visible;
+}
+
+.nav-elt .drop-here {
+	position: absolute;
+	top: 0;
+	left: -10px;
+	bottom: 0;
+	width: 5px;
+}
+
+.header {
+	padding: 10px 100px 30px;
+    padding-left: 10%;
+	padding-right: 10%;
+	min-height: 120px;
+	background: url(_/theme/header.jpg) center/cover;
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 80px;
+    /*line-height: 1.2;*/
+}
+
+.header .placeholder {
+  border: 2px dashed #ddd;
+  color: #ddd;
+  padding: 20px;
+}
+
+.card {
+	margin: 50px 10px 50px;
+	background: white;
+	padding: 30px;
+	color: #444;
+	max-width: 680px;
+}
+
+.card .placeholder {
+  border: 2px dashed #888;
+  padding: 20px;
+  text-align: center;
+}
+
+.body {
+  margin: 15px;
+}
+
+@media(min-width:700px) {
+	.card {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 680px;
+	}
+}

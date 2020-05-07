@@ -1,0 +1,83 @@
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: true}
+package_name: Movie_Recommendation
+allow_embedding: false
+name: Movie Recommendation
+runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_persist: true}
+metadata: {}
+startup_form: Form1
+native_deps: {head_html: ''}
+db_schema:
+- name: new_y
+  id: 53480
+  python_name: new_y
+  columns: {}
+  access: {python_name: new_y, app_id: S73FSPBJC4VWOQZR, server: full, client: none,
+    table_id: 53480}
+- name: new_x
+  id: 53479
+  python_name: new_x
+  columns: {}
+  access: {python_name: new_x, app_id: S73FSPBJC4VWOQZR, server: full, client: none,
+    table_id: 53479}
+- name: ratings
+  id: 53287
+  python_name: ratings
+  columns:
+    1F0m6Eu8csw=:
+      name: userId
+      type: number
+      admin_ui: {order: 0, width: 200}
+    C_dq9agBCH8=:
+      name: timestamp
+      type: number
+      admin_ui: {order: 3, width: 200}
+    KIpWpGWQzGg=:
+      name: rating
+      type: number
+      admin_ui: {order: 2, width: 200}
+    jl_OEAlprVA=:
+      name: movieId
+      type: number
+      admin_ui: {order: 1, width: 200}
+  access: {python_name: ratings, app_id: S73FSPBJC4VWOQZR, server: full, client: search,
+    table_id: 53287}
+- name: genre
+  id: 53286
+  python_name: genre
+  columns:
+    +fFLRDU3Gxg=:
+      name: movieId
+      type: number
+      admin_ui: {order: 0, width: 200}
+    8_k_1E3Ge+8=:
+      name: genres
+      type: string
+      admin_ui: {order: 2, width: 200}
+    PPDZwJPEZpM=:
+      name: imdbId
+      type: number
+      admin_ui: {order: 1, width: 200}
+  access: {python_name: genre, app_id: S73FSPBJC4VWOQZR, server: full, client: search,
+    table_id: 53286}
+- name: movies
+  id: 53281
+  python_name: movies
+  columns:
+    JuuTLaeBJ9Q=:
+      name: title
+      type: string
+      admin_ui: {order: 1, width: 200}
+    QQ7dLhi4EZM=:
+      name: movieId
+      type: number
+      admin_ui: {order: 0, width: 200}
+    uEj7ETWcYto=:
+      name: genres
+      type: string
+      admin_ui: {order: 2, width: 200}
+  access: {python_name: movies, app_id: S73FSPBJC4VWOQZR, server: full, client: search,
+    table_id: 53281}
+renamed: true

@@ -1,0 +1,36 @@
+<style>
+  body { background-color: #71798c; }
+</style>
+
+<div class="nav dark" anvil-drop-redirect=".header">
+  <div class="title" anvil-slot-repeat="title-top"></div>
+  <div class="title placeholder anvil-designer-only" anvil-if-slot-empty="title-top" anvil-drop-slot="title-top">Title here</div>
+
+  <div class="nav-right" anvil-drop-redirect=".nav-elt">
+    <div anvil-slot-repeat="nav-right" class="nav-elt">
+      <div anvil-drop-here class="drop-here"></div>
+    </div>
+    <div class="nav-elt placeholder anvil-designer-only" anvil-drop-slot="nav-right">
+      <i class="glyphicon glyphicon-plus"></i>
+    </div>
+  </div>
+
+</div>
+
+<div class="header" anvil-drop-redirect=">.placeholder">
+  <div anvil-slot-repeat="hero"></div>
+  <div anvil-if-slot-empty="hero" anvil-designer-only class="placeholder" anvil-drop-slot="hero">Headline here</div>
+</div>
+
+<div class="card" anvil-slot-repeat="default" anvil-drop-container>
+</div>
+
+<div class="card anvil-designer-only" anvil-if-slot-empty="default" anvil-drop-slot="default">
+  <center class="anvil-designer-only instructions placeholder">
+    <i class="fa fa-info-circle"></i> Add
+    a <img src="https://anvil.works/template-assets/column-panel-icon.png" style="height: 30px; margin-right: -7px; margin-top: -5px"> ColumnPanel component here.
+  </center>
+</div>
+
+<div anvil-drop-default anvil-drop-redirect=".card .placeholder, .card[anvil-drop-container]">
+</div>
