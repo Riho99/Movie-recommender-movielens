@@ -11,20 +11,12 @@ Everytime I visit movie streaming sites, I wonder how do they recommend me movie
 
 
 ### Installing
-no install need
-Web app project clone : https://anvil.works/build#clone:S73FSPBJC4VWOQZR=MMHMJSKF43TKBEKGWV4BSPFR
+no install need 
+Python code: /notebook.ipynb
+Web app project clone: https://anvil.works/build#clone:S73FSPBJC4VWOQZR=MMHMJSKF43TKBEKGWV4BSPFR
 
-```
-Give the example
-```
 
-And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
